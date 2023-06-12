@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# 3d files
+*.stl
+*.obj
+
 # C extensions
 *.so
 
