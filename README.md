@@ -1,5 +1,7 @@
 # neuron-view
 
+![example output]('/neuron-view/docs/neuron_view.png')
+
 This is a tool to create 3d models from SWC neuron description files.
 
 It is based around the excellent [SDF library](https://github.com/fogleman/sdf) created by Michael Fogleman
