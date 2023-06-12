@@ -4,8 +4,9 @@ __pycache__/
 *$py.class
 
 # 3d files
-*.stl
-*.obj
+*.mtl
+
+output/
 
 # C extensions
 *.so
