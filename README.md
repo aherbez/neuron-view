@@ -26,7 +26,7 @@ That might take a bit, but after that's done, you should be good to go.
 
 ## Usage 
 
-To use the tool, you'll need a SWC file. There are a few in the `swcs` folder, all pulled from [neuromorph.org](http://www.nueromorpho.org).
+To use the tool, you'll need a SWC file. There are a few in the `swcs` folder, all pulled from [https://neuromorpho.org/](https://neuromorpho.org/).
 
 Use the tool with:
 
