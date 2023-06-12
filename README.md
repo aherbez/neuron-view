@@ -64,3 +64,12 @@ Once it's all done, you'll have some number of STL files in output folder. Next,
 An easy way to do this is to open up Blender, and import all of the created files. Note that you might have to hunt around a bit to find where they are (it seems like the data is often not centered).
 
 Select all the parts, and use Ctrl-J to join them. This will give you a single model. Note that you'll have overlapping / intersecting parts, but they're not likely to be that noticable. If that's a problem for your application, try either using Boolean unions or go into sculpt mode and use voxelization. Both of those might be iffy for large datasets though, so be warned.
+
+# Known issues
+
+Currently, the tool doesn't make use of the "type" parameter in the entries, just the position and radius. That's probably something that needs to change, but I need to better understanad what it means first.
+
+Having to piece together a full model from pieces is defnitely annoying, but I do very much like the inherent organic and continuous surface that the SDF based approach provides. There are a couple of possibilities for fixing this:
+
+- forgo SDF and generate the mesh directly. This is definitely doable, but might not produce as nice junctures where sections meet.
+- incorporate a final step to combine all the generated models in the script itself. This should be doable with open3d or similar, and is what I'm leaning towards.
