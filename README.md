@@ -1,6 +1,6 @@
 # neuron-view
 
-![example output]('/neuron-view/docs/neuron_view.png')
+![example output](https://github.com/aherbez/neuron-view/blob/main/docs/neuron_view.png)
 
 This is a tool to create 3d models from SWC neuron description files.
 
