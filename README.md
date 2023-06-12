@@ -65,6 +65,8 @@ An easy way to do this is to open up Blender, and import all of the created file
 
 Select all the parts, and use Ctrl-J to join them. This will give you a single model. Note that you'll have overlapping / intersecting parts, but they're not likely to be that noticable. If that's a problem for your application, try either using Boolean unions or go into sculpt mode and use voxelization. Both of those might be iffy for large datasets though, so be warned.
 
+Once you've combined the parts, you'll probably want to reduce the polycount. The file in the "example" folder of this repo is the result of having added a "decimate" modifier in Blender with a ratio of 0.1.
+
 # Known issues
 
 Currently, the tool doesn't make use of the "type" parameter in the entries, just the position and radius. That's probably something that needs to change, but I need to better understanad what it means first.
